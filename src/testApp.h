@@ -21,8 +21,8 @@ public:
 	void lostFocus();
 	void gotFocus();
 	void gotMemoryWarning();
-	
-	Hero hero, heroTwo;
-	ofImage person;
+	void pointOnCurve(ofPoint &out, float t, ofPoint p0, ofPoint p1, ofPoint p2, ofPoint p3);
+	void drawTentacle(int periodOffset);
+	ofImage face;
 }; 
 
